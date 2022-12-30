@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: black;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/*Start Page code*/
+.start-page-grid {
+    display: grid;
+    grid-template-rows: repeat(Auto-fit);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    justify-items: center;
+}
+
+.subtitle{
+    color: #f1d367;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.start-button{
+    background-color: rgb(122, 0, 128);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius:25px;
+    cursor: pointer;
+    transition: background-color 0.20s;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/*Hover effect for the button, that changes its color*/
+.start-button:hover{
+    background-color: rgb(99, 6, 99);
+}
+
+/*Click effect for the button, that changes its color*/
+.start-button:active{
+    background-color: rgb(65, 3, 65);
+}
+
+.logo{
+    width: 400px;
+    margin: auto;
+}
+
+/*Character Selection code*/
+.logo-alt{
+    display: block;
+    width: 120px;
+    margin: auto;
+}
+
+.title{
+    color: #f1d367;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+/*Horizontal grid for the two character images*/
+.character-selection-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/*Horizontal grid for the two blocks of text*/
+.text-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.avatar-selection-images{
+    opacity: 70%;
+    width: 300px;
+    margin-bottom: 0;
+}
+
+/*Hover effect that brings opacity to 100% when the cursor is on top of the images*/
+.avatar-selection-images:hover{
+    opacity: 100%;
+    cursor:pointer;
+}
+
+/*Screen1a and Screen1b code*/
+.background-image {
+    display: block;
+    width: 700px;
+    margin: auto;
+}
+
+.text {
+    color: #f1d367;
+    font-size: 18px;
+    text-align: left;
+    margin-right: 80px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+/*Horizontal grid that separates image from text*/
+.structure-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+}
+
+/*Horizontal grid that separates the two navigation buttons*/
+.nav-buttons-grid {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    margin-left: 10px;
+    column-gap: 10px;
+}
+
+/*Decision/navigation buttons that look different from start button*/
+.decision-button{
+    background-color: rgb(128, 53, 0);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius:25px;
+    cursor: pointer;
+    transition: background-color 0.20s;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.decision-button:hover{
+    background-color: rgb(129, 39, 19);
+}
+
+.decision-button:active{
+    background-color: rgb(65, 3, 65);
+}
+
+/*Styling certain text*/
+.dialog{
+    color:#f18367;
+    font-style: italic;
+}
+
+.nav-buttons-grid2{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    margin-left: 10px;
+    column-gap: 10px;
+}
+
+.decision-button-green{
+    background-color: rgb(0, 128, 60);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius:25px;
+    cursor: pointer;
+    transition: background-color 0.20s;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.decision-button-green:hover{
+    background-color: rgb(19, 129, 68);
+}
+
+.decision-button-green:active{
+    background-color: rgb(10, 65, 3);
+}
+
+
